@@ -1,0 +1,21 @@
+# RNA-seq data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.sam
+
+# R and RStudio
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+renv/staging/
+
+# Temporary files
+*.tmp
+*.log
+slurm-*.out
+slurm-*.err
