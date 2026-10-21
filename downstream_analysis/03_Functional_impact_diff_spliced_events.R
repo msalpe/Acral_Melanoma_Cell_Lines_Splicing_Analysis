@@ -31,9 +31,9 @@ library(tidyr)
 # ======================================================================================
 
 # paths
-root_dir <- "C:/Users/msalinas/OneDrive - CRG - Centre de Regulacio Genomica/Desktop/DATA/Acral_melanoma/AM202607/"
-files_dir <- file.path(root_dir,"code_paper","downstream_analyses" ,"AS", "Files")
-graphs_dir <- file.path(root_dir,"code_paper","downstream_analyses" ,"AS", "Graphs")
+root_dir <- ""
+files_dir <- file.path(root_dir,"AS", "Files")
+graphs_dir <- file.path(root_dir, "AS", "Graphs")
 
 if (!dir.exists(files_dir)) {dir.create(files_dir, recursive = TRUE)}
 if (!dir.exists(graphs_dir)) {dir.create(graphs_dir, recursive = TRUE)}

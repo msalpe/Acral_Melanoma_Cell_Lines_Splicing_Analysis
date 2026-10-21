@@ -30,16 +30,16 @@ library(dplyr)
 # ======================================================================================
 
 # paths & directories
-root_dir <- "C:/Users/msalinas/OneDrive - CRG - Centre de Regulacio Genomica/Desktop/DATA/Acral_melanoma/AM202607/"
-files_dir <- file.path(root_dir,"code_paper","downstream_analyses" ,"AS", "Files")
-graphs_dir <- file.path(root_dir,"code_paper","downstream_analyses" ,"AS", "Graphs")
+root_dir <- ""
+files_dir <- file.path(root_dir,"AS", "Files")
+graphs_dir <- file.path(root_dir,"AS", "Graphs")
 
 dir.create(files_dir, recursive = TRUE, showWarnings = FALSE)
 dir.create(graphs_dir, recursive = TRUE, showWarnings = FALSE)
 
 
 # functions/utils
-source(file.path(root_dir,"code_paper/downstream_analyses/00_utils.R"))
+source(file.path(root_dir,"00_utils.R"))
 
 
 # files, parameters and custom colors

@@ -31,9 +31,9 @@ library(dplyr)
 #
 # ======================================================================================
 # paths & directories
-root_dir <- "C:/Users/msalinas/OneDrive - CRG - Centre de Regulacio Genomica/Desktop/DATA/Acral_melanoma/AM202607/"
-files_dir <- file.path(root_dir,"code_paper","downstream_analyses" ,"GE", "Files")
-graphs_dir <- file.path(root_dir,"code_paper","downstream_analyses" ,"GE", "Graphs")
+root_dir <- ""
+files_dir <- file.path(root_dir,"GE", "Files")
+graphs_dir <- file.path(root_dir,"GE", "Graphs")
 
 dir.create(files_dir, recursive = TRUE, showWarnings = FALSE)
 dir.create(graphs_dir, recursive = TRUE, showWarnings = FALSE)
