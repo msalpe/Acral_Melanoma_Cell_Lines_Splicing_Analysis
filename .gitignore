@@ -19,3 +19,4 @@ renv/staging/
 *.log
 slurm-*.out
 slurm-*.err
+logs/
